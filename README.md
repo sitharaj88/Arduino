@@ -11,6 +11,7 @@ This repository contains a curated collection of basic Arduino programs, each th
 5. [Analog Input Read](#analog-input-read)
 6. [LCD Display](#lcd-display)
 7. [Keypad and LCD](#keypad-and-lcd)
+8. [Keypad and I2C LCD](#keypad-and-i2c-lcd)
 
 ## Blinking LED
 
@@ -54,6 +55,11 @@ This program demonstrates how to use a 16x2 LCD display to show a static message
 
 This program demonstrates how to use a 4x4 keypad to input data and display it on a 16x2 LCD. The keypad is used to input characters, which are then displayed on the LCD.
 
+## Keypad and I2C LCD
+
+**Filename:** `KeypadI2CLCD/KeypadI2CLCD.ino`
+
+This program demonstrates how to use a 4x4 keypad to input data and display it on a 16x2 I2C LCD using the DFRobot RGB LCD library. The keypad is used to input characters, which are then displayed on the LCD.
 
 ## Getting Started
 
