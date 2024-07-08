@@ -10,6 +10,7 @@ This repository contains a curated collection of basic Arduino programs, each th
 4. [Button Control LED](#button-control-led)
 5. [Analog Input Read](#analog-input-read)
 6. [LCD Display](#lcd-display)
+7. [Keypad and LCD](#keypad-and-lcd)
 
 ## Blinking LED
 
@@ -46,6 +47,12 @@ This program reads an analog input value from pin A0 and prints it to the serial
 **Filename:** `LCDDisplay/LCDDisplay.ino`
 
 This program demonstrates how to use a 16x2 LCD display to show a static message on the first row and the number of seconds since the Arduino was reset on the second row.
+
+## Keypad and LCD
+
+**Filename:** `KeypadLCD/KeypadLCD.ino`
+
+This program demonstrates how to use a 4x4 keypad to input data and display it on a 16x2 LCD. The keypad is used to input characters, which are then displayed on the LCD.
 
 
 ## Getting Started
