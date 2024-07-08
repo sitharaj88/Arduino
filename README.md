@@ -9,6 +9,7 @@ This repository contains a curated collection of basic Arduino programs, each th
 3. [Servo Control](#servo-control)
 4. [Button Control LED](#button-control-led)
 5. [Analog Input Read](#analog-input-read)
+6. [LCD Display](#lcd-display)
 
 ## Blinking LED
 
@@ -39,6 +40,13 @@ This program uses a button to control an LED connected to pin 13.
 **Filename:** `AnalogInputRead/AnalogInputRead.ino`
 
 This program reads an analog input value from pin A0 and prints it to the serial monitor.
+
+## LCD Display
+
+**Filename:** `LCDDisplay/LCDDisplay.ino`
+
+This program demonstrates how to use a 16x2 LCD display to show a static message on the first row and the number of seconds since the Arduino was reset on the second row.
+
 
 ## Getting Started
 
